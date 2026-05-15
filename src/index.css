@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "@fontsource/inter/latin-400.css";
+@import "@fontsource/inter/latin-500.css";
+@import "@fontsource/inter/latin-600.css";
+@import "@fontsource/inter/latin-700.css";
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --color-app: #111317;
+  --color-panel: #171a20;
+  --color-inset: #0f1217;
+  --color-raised: #1b1f26;
+  --color-row-hover: #202530;
+  --color-row-active: #2a2f39;
+  --color-line: #2b3039;
+  --color-field: #343b49;
+  --color-line-muted: #303642;
+  --color-line-strong: #3f4959;
+  --color-ink: #e9ebef;
+  --color-muted: #b8bfcb;
+  --color-muted-strong: #63676e;
+  --color-bright: #f4f6f9;
+  --color-icon: #dde3ea;
+  --color-secondary: #222833;
+  --color-secondary-hover: #2a3140;
+  --color-outline: #3a4251;
+  --color-primary: #3047bd;
+  --color-primary-edge: #435bd4;
+  --color-primary-hover: #3a52cf;
+  --color-accent: #6e83ff;
+  --color-accent-edge: #94a8ff;
+  --color-accent-hover: #8899ff;
+  --color-danger: #4a2328;
+  --color-danger-edge: #6b2f37;
+  --color-danger-hover: #5b2a30;
+  --color-danger-ink: #f3f5f8;
+  --color-scrim: rgb(0 0 0 / 0.55);
+  --color-segment: #0f1217;
+  --color-segment-active: #2a3140;
+}
